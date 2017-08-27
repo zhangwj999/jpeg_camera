@@ -1,4 +1,4 @@
-/*! JpegCamera 1.3.3 | 2016-09-18
+/*! JpegCamera 1.3.3 | 2017-08-27
     (c) 2013 Adam Wrobel
     https://amw.github.io/jpeg_camera */
 (function() {
@@ -8,9 +8,9 @@
 
   JpegCamera = (function() {
     JpegCamera.DefaultOptions = {
-      shutter_ogg_url: "/jpeg_camera/shutter.ogg",
-      shutter_mp3_url: "/jpeg_camera/shutter.mp3",
-      swf_url: "/jpeg_camera/jpeg_camera.swf",
+      shutter_ogg_url: "./shutter.ogg",
+      shutter_mp3_url: "./shutter.mp3",
+      swf_url: "./jpeg_camera.swf",
       on_debug: function(message) {
         if (console && console.log) {
           return console.log("JpegCamera: " + message);

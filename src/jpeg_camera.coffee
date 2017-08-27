@@ -17,9 +17,9 @@ class JpegCamera
   # @nodoc
   # @private
   @DefaultOptions =
-    shutter_ogg_url: "/jpeg_camera/shutter.ogg"
-    shutter_mp3_url: "/jpeg_camera/shutter.mp3"
-    swf_url: "/jpeg_camera/jpeg_camera.swf"
+    shutter_ogg_url: "./shutter.ogg"
+    shutter_mp3_url: "./shutter.mp3"
+    swf_url: "./jpeg_camera.swf"
     on_debug: (message) ->
       console.log "JpegCamera: #{message}" if console && console.log
     quality: 0.9
